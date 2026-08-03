@@ -6,14 +6,15 @@ public class patterns {
         int m=5;
 
 
-         //outer loop...
-        for(i=1; i<=n;i++) {
-            //inner loop....
-             for(j=1; j<=m;j++) {
-                 System.out.print(" * ");
-             }
+        //Outer loop 
+        for (i=1; i<=n; i++) {
+            //Inner Loop
+            for (j=1; j<=m; j++) {
+                System.out.print(" * ");
+            }
             System.out.println();
         }
         
     }
 }
+  
