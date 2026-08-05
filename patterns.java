@@ -6,7 +6,7 @@ public class patterns {
 
     //inverted star Pattern
         //outer loop.....
-        for (int i=1; i<=4; i++) {
+        for (int i=1; i<=n; i++) {
             //inner loop......
             for (int j=1; j<=i; j++) {     //  printed the Characters.... 
                 System.out.print( ch );  // by syso of ( ch ),  ch++;
@@ -14,7 +14,7 @@ public class patterns {
             }                                                    
         System.out.println();
         }
-        
-    }
+      
+    } 
 }
   

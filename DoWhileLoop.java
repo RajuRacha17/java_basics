@@ -23,5 +23,6 @@ public class DoWhileLoop {
                  System.out.println(" Is not a prime number ");
             }
         }     
-    }
+    sc.close(); 
+} 
 }
