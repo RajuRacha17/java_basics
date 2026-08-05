@@ -1,21 +1,21 @@
 public class AdvancedPattern {
-    public static void Hollow_Rectangle (int totRows , int totCol ) {
-      //outer loop...
-      for(int i =1; i<=totRows;i++) {
-        //Inner loop....
-        for ( int j=1; j<=totCol; j++) {
-
-           if (i ==1 || i == totRows || j ==1 ||j ==totCol ) {
+       public static void inverted_rotated_half_pyramid(int n) {
+        // Outer Loop....
+        for (int i = 1; i<=n; i++) {
+          //Inner Loop.....
+          for (int j =1;j<=n; j++) {
+            System.out.print("");
+          }
+          for (int j=1; j<=i; j++) {
             System.out.print("*");
-           } else {
-            System.out.print(" ");
-           }
+          }
+          System.out.println();
         }
-        System.out.println();
-      }
-    }
+       }
+    
     public static void main(String[] args) {
-    Hollow_Rectangle(4,5);
+    
+      inverted_rotated_half_pyramid(4);
 
     }
 }
