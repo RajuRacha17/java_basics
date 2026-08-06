@@ -4,17 +4,17 @@ public class AdvancedPattern {
         for (int i = 1; i<=n ; i++){
           //stars i..
           for (int j = 1; j<=i ; j++) {
-            System.out.print(" * ");
+            System.out.print("*");
           }
 
           //spaces -2*(n-1)
-          for (int j =1 ; j<=n*(n-1); j++) {
+          for (int j =1 ; j<=2*(n-i); j++) {
             System.out.print(" ");
           }
 
           //stars i
           for (int j =1; j<=i; j++) {
-            System.out.print(" * ");
+            System.out.print("*");
           }
 
           System.out.println();
@@ -25,20 +25,21 @@ public class AdvancedPattern {
         for (int i=n ; i>=1; i--) {
            //stars i..
           for (int j = 1; j<=i ; j++) {
-            System.out.print(" * ");
+            System.out.print("*");
           }
 
           //spaces -2*(n-1)
-          for (int j =1 ; j<=n*(n-1); j++) {
+          for (int j =1 ; j<=2*(n-i); j++) {
             System.out.print(" ");
           }
 
           //stars i
           for (int j =1; j<=i; j++) {
-            System.out.print(" * ");
+            System.out.print("*");
           }
           System.out.println();
         }
+        //  System.out.println();
        }
     
     public static void main(String[] args) {
