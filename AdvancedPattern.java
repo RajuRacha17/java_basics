@@ -1,26 +1,49 @@
 public class AdvancedPattern {
-       public static void triangle_0_1 (int n ) {
-            
-        /// Outer loop...
-        for (int i = 1; i<=n ; i++) {
-          ///Inner Loop...
-          for (int j =1; j<=i; j++){
-            if((i+j)%2==0 ) {
-              System.out.print("1");
-            }else {
-              System.out.print("0");
-            }
-            
-          
+       public static void Butterfly(int n ) {
+        //1st half..
+        for (int i = 1; i<=n ; i++){
+          //stars i..
+          for (int j = 1; j<=i ; j++) {
+            System.out.print(" * ");
+          }
+
+          //spaces -2*(n-1)
+          for (int j =1 ; j<=n*(n-1); j++) {
+            System.out.print(" ");
+          }
+
+          //stars i
+          for (int j =1; j<=i; j++) {
+            System.out.print(" * ");
+          }
+
+          System.out.println();
+
         }
-        System.out.println();
+        //2nd half
+
+        for (int i=n ; i>=1; i--) {
+           //stars i..
+          for (int j = 1; j<=i ; j++) {
+            System.out.print(" * ");
+          }
+
+          //spaces -2*(n-1)
+          for (int j =1 ; j<=n*(n-1); j++) {
+            System.out.print(" ");
+          }
+
+          //stars i
+          for (int j =1; j<=i; j++) {
+            System.out.print(" * ");
+          }
+          System.out.println();
+        }
        }
-      }
-      
     
     public static void main(String[] args) {
     
-      triangle_0_1 (5);
+     Butterfly(5);
 
     }
 }
