@@ -1,22 +1,26 @@
 public class AdvancedPattern {
-       public static void Floyds_Triangle (int n ) {
-        int count = 1;    
+       public static void triangle_0_1 (int n ) {
+            
         /// Outer loop...
         for (int i = 1; i<=n ; i++) {
-         
           ///Inner Loop...
           for (int j =1; j<=i; j++){
-            System.out.print(count + " ");
-            count++;
-          }
-          System.out.println();
+            if((i+j)%2==0 ) {
+              System.out.print("1");
+            }else {
+              System.out.print("0");
+            }
+            
+          
         }
+        System.out.println();
        }
+      }
       
     
     public static void main(String[] args) {
     
-      Floyds_Triangle (5);
+      triangle_0_1 (5);
 
     }
 }
