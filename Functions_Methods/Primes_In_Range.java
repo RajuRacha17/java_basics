@@ -1,6 +1,6 @@
 package Functions_Methods;
 
-import java.util.Scanner;
+
 
 public class Primes_In_Range {
 
@@ -25,6 +25,6 @@ public class Primes_In_Range {
     }
    public static void main(String[] args) {
       PrimesInRange(20);
-      
+
    }
 }
