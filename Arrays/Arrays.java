@@ -1,0 +1,10 @@
+package Arrays;
+
+public class Arrays {
+    public static void main(String[] args) {
+        // int marks [] = new int [50];
+        String Fruits[] = {"Apple" , "Mango" , "Banana"};
+         
+
+    }
+}
