@@ -2,6 +2,8 @@ package Arrays;
 
 public class Mx_Sub_Arr_Sm_prefix {
     public static void mx_sb_arr_sm_prefix(int numbers[]) {
+
+
         int currSum = 0;
         int MaxSum = Integer.MIN_VALUE;
         int prefix[] = new int [numbers.length];
@@ -27,7 +29,8 @@ public class Mx_Sub_Arr_Sm_prefix {
         System.out.println("max sum = " + MaxSum);
     }
     public static void main(String[] args) {
-         int numbers[] = {2,4,6,8,10};
+        //This takes Some Less Time Complexity than the previous one
+         int numbers[] = {-2,-3, 4, -1, -2, 1, 5, -3};
 
         mx_sb_arr_sm_prefix(numbers);
     }
