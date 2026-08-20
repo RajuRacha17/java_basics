@@ -8,8 +8,8 @@ public class product {
     }
 
     public static void main(String[] args) {
-        int a = 5;
-        int b = 4;
+        int a = 100;
+        int b = 300;
         int prod = multiply(a, b);
         System.out.println("the product a * b is : " + prod);
 
