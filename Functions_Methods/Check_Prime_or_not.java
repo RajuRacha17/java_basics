@@ -12,7 +12,7 @@ public class Check_Prime_or_not {
     }
     
     public static void main(String[] args) {
-    System.out.println(isprime(100));
+    System.out.println(isprime(2));
 
     }
     

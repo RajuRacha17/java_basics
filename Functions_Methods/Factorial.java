@@ -9,7 +9,7 @@ public class Factorial {
         return f;
     }
     public static void main(String[] args) {
-        int r = factorial( 7);
+        int r = factorial( 9);
         System.out.println(r);
     }
 }
