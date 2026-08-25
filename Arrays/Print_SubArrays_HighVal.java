@@ -1,7 +1,7 @@
 package Arrays;
 
-public class Print_SubArrays_alphabets {
-    public static void SubArray(int numbers[]) {
+public class Print_SubArrays_HighVal {
+    public static void SubArrayHighVal(int numbers[]) {
 
         int ts = 0;
         for (int i = 0; i<numbers.length; i++) {
@@ -23,7 +23,7 @@ public class Print_SubArrays_alphabets {
     public static void main(String[] args) {
         int numbers[] = {100,300,500,700,900};
 
-        SubArray(numbers);
+        SubArrayHighVal(numbers);
 
     }
 }
