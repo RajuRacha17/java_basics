@@ -5,7 +5,6 @@ public class whileLoop {
             System.out.println(i);
             i++;
 
-
             
         }
     }
