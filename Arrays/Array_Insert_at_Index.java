@@ -15,8 +15,8 @@ public class Array_Insert_at_Index {
         list.add(4);
         list.add(5);
 
-        Array_Insert_at_Index inserter = new Array_Insert_at_Index();
-        inserter.insertAtIndex(list, 2, 10);
+        Array_Insert_at_Index res = new Array_Insert_at_Index();
+        res.insertAtIndex(list, 2, 10);
 
         System.out.println(list);
     }
