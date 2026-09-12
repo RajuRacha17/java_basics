@@ -22,7 +22,7 @@ static class Solution {
         // Example usage    
         List<Integer> arr = List.of(10,1, 2, 8, 4, 9);
         int x = 9;
-        int result = sol.countOfElements(x, arr);
+        int result = sol.countOfElements(x, arr); 
         System.out.println("Count of elements smaller than " + x + ": " + result);
     }
 }
